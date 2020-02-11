@@ -9,7 +9,7 @@
   }
 
 
-  
+  /* you only need grid template area method OR the grid-row/grid-column method */
   header {
     grid-area: header;
     background-color: gray;
@@ -24,7 +24,7 @@
     grid-template-columns: 2fr 1fr 1fr;
   }
     
-  
+  /* article and aside should be switched */
   article {
     grid-area: content;
     background-color: gray;
