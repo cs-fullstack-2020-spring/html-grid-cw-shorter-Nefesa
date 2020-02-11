@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header "
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+  }
+
+
+  
+  header {
+    grid-area: header;
+    background-color: gray;
+    grid-template-columns: 1/6;
+    grid-row: row 1px;
+    
+  }
+
+  h1 { 
+    grid-area: header;
+    background-color: blue;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+    
+  
+  article {
+    grid-area: content;
+    background-color: gray;
+  }
+  
+  aside {
+    grid-area: sidebar;
+    background-color: grey;
+    grid-gap: 20px;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: grey;
+    grid-row: }
